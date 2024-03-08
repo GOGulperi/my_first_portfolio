@@ -3,19 +3,12 @@ html {
 
 }
 
-/*.inter-<uniquifier> {
-  font-family: "Inter", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 100, 400, 600, 700,;
-  font-style: normal;
-  font-variation-settings:
-    "slnt" 0;
-}*/
-
 body {
   font-size: 1.6rem;
-  font-weight: 100;
+  font-weight: 400;
   line-height: 1.5;
+  color: #000;
+  font-family:'Lato', sans-serif;
 }
 
 .subtitle {
@@ -25,19 +18,31 @@ body {
 }
 
 h1 {
-  background-color: #fff;
   color: #3A5185;
-  font-family: 'Inter';
-  font-size: 2.4rem;
+  font-size: 2.2rem;
   font-weight: 700;
+  line-height:1.2;
 }
 
-.h4 {
-  background-color: #fff;
+h2{
+  color: #3A5185;
+  font-size: 2.0rem;
+  font-weight: 700;
+  line-height:1.2;
+}
+
+h3{
+  color: #3A5185;
+  font-size: 1.8rem;
+  font-weight: 700;
+  line-height:1.2;
+}
+
+h4, .h4{
   color: #3A8285;
-  font-family: 'Inter';
-  font-size: 2rem;
-  font-weight: 600;
+  font-size: 2.4rem;
+  font-weight: 700;
+  line-height:1.2;
 }
 
 img {
@@ -49,32 +54,33 @@ img {
   background-color: #7ACCCF;
   color: #3A5185;
   font-weight: 400;
-  padding: 10px;
-  border-radius: 3px;
+  padding: 10px 20px;
+  border-radius: 5px;
   border-bottom: 2px solid #3A8285; /* width of the border, type, color */
   transition: 0.2s opacity;
   text-decoration: none;
 }
 
-.button:hover {
-  opacity: 0.7;
-  text-decoration: none;
+.button:visited{
+   color: #3A5185;
 }
 
+.button:hover, .button:focus {
+  opacity: 0.7;
+}
 
 .button:active {
-  text-decoration: none;
   font-weight: 700;
 }
 
-
-a { color: #000; text-decoration: none; }
-a:hover {
+a { color: #3A5185;
+  }
+a:visited{
+  color:#3A5185;
+}
+a:hover, a:focus {
   color:#3A8285;
-  font-weight: 400;
 }
 a:active {
   color:#3A8285;
-  font-weight: 700;
-  background-color: #fff;
 }
