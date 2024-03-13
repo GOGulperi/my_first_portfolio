@@ -25,6 +25,8 @@ span{
 
 header {
   background-color:#F1EDFF;
+  text-align:center;
+  padding: 10px 0;
 }
 
 body {
@@ -113,4 +115,8 @@ a:active {
 .container{
   max-width:1200px;
   padding:0 15px;
+}
+
+.row{
+  margin:25px 0;
 }
