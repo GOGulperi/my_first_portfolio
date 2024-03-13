@@ -29,6 +29,16 @@ header {
   padding: 10px 0;
 }
 
+.box-shadow{
+  width: [object Object]px; 
+  height: [object Object]px; 
+  background: #F8F8F8; 
+  border: solid #BDBDBD 1px; 
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.6)  ; 
+  -webkit-box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.6)  ; 
+  -moz-box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.6)  ; 
+}
+
 body {
   font-size: 1.6rem;
   font-weight: 400;
@@ -145,4 +155,7 @@ nav > ul > li > a:visited {
 
 #hero {
   background-color: #CBFF88;
+  padding: 20px 0;
+  display: inline-block;
+  width: 100%;
 }
