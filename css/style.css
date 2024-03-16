@@ -7,28 +7,6 @@ html {
 
 }
 
-div{
-  padding:20px;
-  margin: 20px auto;
-  width:500px;
-  box-sizing:border-box;
-  border:5px solid #000;
-}
-
-div{ 
-  display:block;
-}
-
-span{ 
-  display:inline; 
-}
-
-header {
-  background-color:#F1EDFF;
-  text-align:center;
-  padding: 10px 0;
-}
-
 body {
   font-size: 1.6rem;
   font-weight: 400;
@@ -42,6 +20,7 @@ body {
   font-weight: 400;
   color: #5D5D5D;
   line-height:1.6;
+  display: block;
 }
 
 h1 {
@@ -163,4 +142,10 @@ nav > ul > li > a:visited {
 
 main {
   padding-top: 120px;
+}
+
+header {
+  background-color:#F1EDFF;
+  text-align:center;
+  padding: 10px 0;
 }
