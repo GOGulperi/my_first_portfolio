@@ -184,3 +184,11 @@ section{
   overflow: hidden;
 
 }
+
+.project-card__media {
+  order: -1;
+}
+
+.project-card__content {
+  padding: 1em;
+}
