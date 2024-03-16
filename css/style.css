@@ -192,3 +192,30 @@ section{
 .project-card__content {
   padding: 1em;
 }
+
+/* ===================
+Social-Footer
+==================== */
+
+.social {
+  display: flex;
+  align-items: center;
+  gap: 1em;
+}
+
+.social a{
+  text-decoration: none;
+  line-height: 0;
+  background: #efefef;
+  padding: 1rem;
+  border-radius: 50vw;
+  transition: all 0.3s ease-in-out;
+}
+
+.social svg{
+  width: 3rem;
+}
+
+.social a:hover svg {
+  fill: #efefef;
+}
