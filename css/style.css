@@ -261,25 +261,33 @@ main {
 about
 ==================== */
 
-#aboutme .project-card__media {
+.about-card__media {
   order: 1;
+  width:40%;
 }
 
-#aboutme .project-card__content {
+.about-card__content {
   order: 2;
   width: 60%;
-  /* display: flex;"
+  display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: row;
-  width: 20%;" */
+  flex-direction: column;
+  width: 20%;
+}
+.about-card__story {
+  order: 2;
+  width: 60%;
+  display: flex;"
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 40%;" 
 }
 
-#aboutme .project-card__media {
-  width:40%;
-  /* display: flex;"
-  justify-content: center;
-  align-items: center;
-  flex-direction: row;
-  width: 20%;" */
+.about-card {
+ margin-top: 40px;
+ flex-direction: row;
+ max-width: 80rem;
 }
+
