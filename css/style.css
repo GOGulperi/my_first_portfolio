@@ -107,6 +107,18 @@ header {
   position:fixed;
   width: 100%;
 }
+
+header .container{
+  gap: 1em;
+  align-items: center;
+}
+
+a.logo {
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 2rem;
+}
+
 .row{
   margin:25px 0;
 }
