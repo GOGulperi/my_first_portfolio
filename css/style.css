@@ -36,6 +36,7 @@ h2{
   font-size: 2.2rem;
   font-weight: 700;
   line-height:1.2;
+  margin: 0;
 }
 
 h3{
@@ -43,6 +44,7 @@ h3{
   font-size: 2.0rem;
   font-weight: 700;
   line-height:1.2;
+  margin: 0;
 }
 
 h4, .h4{
@@ -50,6 +52,7 @@ h4, .h4{
   font-size: 2.4rem;
   font-weight: 700;
   line-height:1.2;
+  margin: 0;
 }
 
 img {
@@ -92,11 +95,18 @@ a:active {
   color:#3A8285;
 }
 
-.container{
-  max-width:1200px;
-  padding:0 15px;
+/* ===================
+HEADER Styling
+==================== */
+header {
+  background-color:#F8F8F8;
+  padding: 10px 0;
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.6)  ; 
+  -webkit-box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.6)  ; 
+  -moz-box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.6)  ;
+  position:fixed;
+  width: 100%;
 }
-
 .row{
   margin:25px 0;
 }
@@ -145,8 +155,7 @@ main {
   padding-top: 120px;
 }
 
-header {
-  background-color:#F1EDFF;
-  text-align:center;
-  padding: 10px 0;
+.container{
+  max-width:1200px;
+  padding:0 15px;
 }
