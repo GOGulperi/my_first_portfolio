@@ -172,3 +172,15 @@ section{
 #hero .container, #projects .container {
   gap: 2em;
 }
+
+.project-card {
+  background: #efefef;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15)  ; 
+  -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.15)  ; 
+  -moz-box-shadow: 0 0 20px rgba(0, 0, 0, 0.15)  ;
+  display: flex;
+  flex-direction: column;
+  border-radius: 8px;
+  overflow: hidden;
+
+}
