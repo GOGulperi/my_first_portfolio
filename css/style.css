@@ -219,3 +219,14 @@ Social-Footer
 .social a:hover svg {
   fill: #efefef;
 }
+
+/* ===================
+device settings
+==================== */
+
+@media (min-width: 767px) {
+header .container {
+  flex-direction: row;
+  justify-content: space-between;
+}
+}
