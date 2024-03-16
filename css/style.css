@@ -29,6 +29,7 @@ h1 {
   font-weight: 700;
   line-height:1.2;
   margin: 0;
+  text-align: center;
 }
 
 h2{
@@ -260,10 +261,25 @@ main {
 about
 ==================== */
 
-#about-content .project-card__content {
-  display: flex;
+#aboutme .project-card__media {
+  order: 1;
+}
+
+#aboutme .project-card__content {
+  order: 2;
+  width: 60%;
+  /* display: flex;"
   justify-content: center;
   align-items: center;
-  flex-direction: column;
-  width: 20%;
+  flex-direction: row;
+  width: 20%;" */
+}
+
+#aboutme .project-card__media {
+  width:40%;
+  /* display: flex;"
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  width: 20%;" */
 }
