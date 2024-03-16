@@ -225,8 +225,33 @@ device settings
 ==================== */
 
 @media (min-width: 767px) {
-header .container {
+  header .container {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
+#projects .container {
+  align-items: center;
+}
+
+.project-card {
   flex-direction: row;
-  justify-content: space-between;
+  max-width: 80rem;
 }
+
+.project-card__media {
+  width: 40%;
 }
+
+.project-card__content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 60%;
+}
+main {
+  padding-top: 50px;
+}
+
