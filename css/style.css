@@ -260,6 +260,9 @@ main {
 /* ===================
 about
 ==================== */
+#aboutme .container {
+  align-items: center;
+}
 
 .about-card__media {
   order: 1;
@@ -282,13 +285,19 @@ about
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  width: 40%;" 
+  
 }
 
 .about-card {
+  display: flex;"
  margin-top: 40px;
  flex-direction: row;
  max-width: 80rem;
+ align-items: center;
+ justify-content: center;
+ 
+ 
+
 }
 
 #resume{
