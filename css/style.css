@@ -157,22 +157,14 @@ main {
   margin-inline: auto;
 }
 
+section{
+  padding-block: 6rem;
+}
+
 #hero {
   background-color: #CBFF88;
 }
 
-.box-shadow{
-  width: 100%; 
-  height:120px; 
-  background: #F8F8F8; 
-  border: solid #BDBDBD 1px; 
-  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.6)  ; 
-  -webkit-box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.6)  ; 
-  -moz-box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.6)  ; 
-  position:fixed;
-}
-
-
-.row{
-  margin:25px 0;
+#hero p {
+  margin: 0;
 }
