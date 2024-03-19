@@ -290,9 +290,16 @@ about
 
 .about-card__media {
   order: 1;
-  width: 40%;
+  width: 50%;
   padding: 20px;
+
 }
+.about-card__media img{
+border-radius: 80%;
+border: #CBFF88 2px;
+padding: 20px;
+}
+
 
 .about-card__content {
   order: 2;
@@ -304,7 +311,7 @@ about
 
 .about-card__story {
   order: 2;
-  width: 60%;
+  width: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
