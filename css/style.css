@@ -212,10 +212,8 @@ section {
 .home-all-projects{
   display: flex;
   flex-direction: row;
-  gap: 1em;
   align-items: center;
-
-
+  gap: 1em;
 }
 
 /* ===================
