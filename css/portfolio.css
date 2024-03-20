@@ -9,27 +9,6 @@ portfolio.html PROJECTS
       
     }
   }
-  
-  #projects .project-card {
-    background-color: #fff;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
-    -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
-    -moz-box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
-    display: flex;
-    flex-direction: column;
-    border-radius: 8px;
-    overflow: hidden;
-  
-  }
-  
-  #projects .project-card__media {
-    padding: 20px;
-    width: 100%;
-  }
-  
-  #projects .project-card__content {
-    flex-direction: column;
-    width: 100%;
-    margin-bottom: 1em;
-  }
-  
+
+
+ 
