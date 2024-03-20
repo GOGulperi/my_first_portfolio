@@ -209,6 +209,15 @@ section {
   padding: 1em;
 }
 
+.home-all-projects{
+  display: flex;
+  flex-direction: row;
+  gap: 1em;
+  align-items: center;
+
+
+}
+
 /* ===================
 Social-Footer
 ==================== */
