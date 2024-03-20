@@ -38,6 +38,7 @@ h2 {
   font-weight: 700;
   line-height: 1.2;
   margin: 0;
+  text-align: center;
 }
 
 h3 {
@@ -46,6 +47,7 @@ h3 {
   font-weight: 700;
   line-height: 1.2;
   margin: 0;
+  text-align: center;
 }
 
 h4,
@@ -261,8 +263,8 @@ device settings
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: column;
   width: 40%;
+  flex-direction: column;
 }
 
 main {
@@ -329,7 +331,8 @@ about-skills-tools
 ==================== */
 
 #skills-tools .container {
-  
+ 
+ 
 }
 
 ul.skill-list{
@@ -338,12 +341,12 @@ ul.skill-list{
   padding-left: 0;
   list-style-position: inside;
   column-gap: 1em;
+  row-gap: 0.5em;
   }
 
 
-
 /* ===================
-contact
+contact.html
 ==================== */
 
 footer .container {
@@ -352,4 +355,36 @@ footer .container {
   border-top: 2px solid #3A5185;
   padding-top: 6rem;
   padding-bottom: 3rem;
+}
+
+/* ===================
+portfolio.html PROJECTS
+==================== */
+@media (min-width: 350px) {
+  #projects .container {
+    flex-direction: column;
+    justify-content: space-between;
+  }
+}
+
+#projects .project-card {
+  background-color: #fff;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+  -moz-box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+  display: flex;
+  flex-direction: column;
+  border-radius: 8px;
+  overflow: hidden;
+
+}
+
+#projects .project-card__media {
+  padding: 20px;
+  width: 100%;
+}
+
+#projects .project-card__content {
+  flex-direction: column;
+  width: 100%;
 }
