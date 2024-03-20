@@ -21,10 +21,11 @@ body {
   color: #5D5D5D;
   line-height: 1.6;
   display: block;
+  
 }
 
 h1 {
-  color: #3A5185;
+  color: #3A8285;
   font-size: 2.0rem;
   font-weight: 700;
   line-height: 1.2;
@@ -42,7 +43,7 @@ h2 {
 }
 
 h3 {
-  color: #3A5185;
+  color: #3A8285;
   font-size: 2.0rem;
   font-weight: 700;
   line-height: 1.2;
@@ -166,6 +167,7 @@ main {
   display: flex;
   flex-direction: column;
   margin-inline: auto;
+  
 }
 
 section {
@@ -174,10 +176,12 @@ section {
 
 #hero {
   background-color: #CBFF88;
+
 }
 
 #hero p {
   margin: 0;
+
 }
 
 #hero .container,
@@ -364,6 +368,7 @@ portfolio.html PROJECTS
   #projects .container {
     flex-direction: column;
     justify-content: space-between;
+    
   }
 }
 
@@ -387,4 +392,5 @@ portfolio.html PROJECTS
 #projects .project-card__content {
   flex-direction: column;
   width: 100%;
+  margin-bottom: 1em;
 }
