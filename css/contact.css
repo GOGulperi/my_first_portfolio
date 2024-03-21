@@ -49,3 +49,14 @@ button:hover {
     background-color: #3A5185;
     color: #CBFF88;
 }
+
+
+/* ===================
+context
+==================== */
+.contact-content{
+    text-align: center;
+   
+    list-style: none;
+}
+

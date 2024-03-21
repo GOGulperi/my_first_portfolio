@@ -14,13 +14,24 @@
   }
   
 
-  
+  .index-title{
+    text-align: center;
+  }
 
   
-  .home-all-projects{
+  .all-projects{
+    margin-top: 2rem;
     display: flex;
     flex-direction: row;
     align-items: center;
-    gap: 1em;
     width: 100%;
+  
+  }
+
+  @media (max-width: 450px){
+    .all-projects .button{
+      width: 100%;
+      text-align: center;
+    }
+
   }
