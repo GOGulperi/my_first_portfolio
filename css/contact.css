@@ -36,14 +36,16 @@ textarea {
 }
 
 button {
-    background-color: #333;
-    color: #fff;
+    background-color:#CBFF88;
+    color: #3A5185;
     padding: 10px 20px;
     border: none;
     border-radius: 5px;
     cursor: pointer;
+   
 }
 
 button:hover {
-    background-color: #555;
+    background-color: #3A5185;
+    color: #CBFF88;
 }
