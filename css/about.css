@@ -58,8 +58,9 @@ gap: 0.5em;
 about-skills-tools
 ==================== */
 
-#skills-tools .container {
- 
+#skills-tools{
+
+   
  
 }
 
@@ -71,4 +72,6 @@ ul.skill-list{
   column-gap: 1em;
   row-gap: 0.5em;
   }
+
+
 
