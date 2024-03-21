@@ -21,9 +21,52 @@
   }
   
   #projects .project-card__content {
+    display: flex;
     flex-direction: column;
     width: 100%;
     margin-bottom: 1em;
     padding: 1em;
   }
   
+
+  /* ===================
+BREADCRUMB for portfolio PROJECTS page
+==================== */
+ul.breadcrumb {
+  padding-top: 50px;
+  padding-left: 16px;
+  list-style: none;
+  background-color: #CBFF88;
+  margin: 0;
+}
+ul.breadcrumb li {
+  display: inline;
+  font-size: 14px;
+}
+ul.breadcrumb li+li:before {
+  padding: 8px;
+  color: black;
+  content: "/\00a0";
+}
+ul.breadcrumb li a {
+  color: #3A8285;
+  text-decoration: none;
+}
+ul.breadcrumb li a:hover {
+  color: #3A5185;
+  text-decoration: underline;
+  text-decoration-color: #CBFF88;
+}
+
+/* ===================
+projects hero section
+==================== */
+
+.hero-image {
+display: flex;
+flex-direction: column;
+padding: 20px;
+align-items: center;
+width: 100%;
+}
+
