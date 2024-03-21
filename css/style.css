@@ -21,7 +21,7 @@ body {
   color: #5D5D5D;
   line-height: 1.6;
   display: block;
-  
+
 }
 
 h1 {
@@ -64,6 +64,11 @@ img {
   width: 100%;
 }
 
+.button-container {
+  text-align: center;
+}
+
+
 .button {
   display: inline-block;
   background-color: #CBFF88;
@@ -75,6 +80,7 @@ img {
   /* width of the border, type, color */
   transition: 0.2s opacity;
   text-decoration: none;
+  align-items: center;
 }
 
 .button:visited {
@@ -169,7 +175,7 @@ main {
   display: flex;
   flex-direction: column;
   margin-inline: auto;
-  
+
 }
 
 section {
@@ -227,3 +233,12 @@ footer .container {
   padding-bottom: 3rem;
 }
 
+/* ===================
+Header-logo
+==================== */
+.logo-style{
+  text-decoration: none;
+  font-size: 1em;
+  font-weight: 700;
+  color:#474748;
+}
