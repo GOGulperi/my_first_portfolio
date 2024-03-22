@@ -11,6 +11,7 @@ contact.html
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     
+    
 }
 
 .form-group {
@@ -43,6 +44,7 @@ button {
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    width: 100%;
  
    
    
@@ -52,6 +54,7 @@ button:hover {
     background-color: #3A5185;
     color: #CBFF88;
 }
+
 
 
 /* ===================
@@ -68,3 +71,4 @@ context
     padding-bottom: 0;
     padding:auto;
 }
+
