@@ -240,6 +240,10 @@ Header-logo
 device settings
 ==================== */
 
+/* ==============================
+Medium devices (640px and larger)
+================================= */
+
 @media only screen and (min-width: 640px) {
   header .container {
     flex-direction: row;
@@ -266,11 +270,6 @@ device settings
   }
 
 }
-
-
-/* ==============================
-Medium devices (640px and larger)
-================================= */
 
 /* ==============================
 Large devices (1024px or larger)
@@ -302,6 +301,9 @@ Extra-large devices (1920px or larger)
   }
 }
 
+/* ==============================
+css animation
+================================= */
 
 @keyframes color-change {
   from {fill: #edc655;}
