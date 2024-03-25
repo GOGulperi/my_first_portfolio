@@ -91,6 +91,7 @@ img {
 .button:hover,
 .button:focus {
   opacity: 0.7;
+  transition-duration: 0.8s;
 }
 
 .button:active {
@@ -186,17 +187,6 @@ section {
 
 
 
-/* ===================
-device settings
-==================== */
-
-@media (min-width: 767px) {
-  header .container {
-    flex-direction: row;
-    justify-content: space-between;
-  }
-}
-
 
 
 /* ===================
@@ -242,4 +232,62 @@ Header-logo
   font-size: 1em;
   font-weight: 700;
   color:#474748;
+}
+
+
+
+/* ===================
+device settings
+==================== */
+
+@media (min-width: 767px) {
+  header .container {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
+
+/* ==============================
+Medium devices (640px and larger)
+================================= */
+@media only screen and (min-width: 640px) {
+  header .container {
+    text-align: unset;
+    padding: 20px 0 13px;
+  }
+  nav {
+    width: auto;
+    float: right;
+    margin-top: 4px;
+  }
+  #hero span {
+    display: block;
+  }
+  .col-md-6 {
+    width: 50%;
+  }
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+}
+
+/* ==============================
+Large devices (1024px or larger)
+================================= */
+@media only screen and (min-width: 1024px) {
+}
+
+/* ==============================
+X-large devices (1440px or larger)
+================================= */
+@media only screen and (min-width: 1440px) {
+}
+
+/* ==============================
+Extra-large devices (1920px or larger)
+================================= */
+@media only screen and (min-width: 1920px) {
 }
