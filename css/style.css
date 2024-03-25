@@ -240,21 +240,10 @@ Header-logo
 device settings
 ==================== */
 
-@media (min-width: 767px) {
+@media only screen and (min-width: 640px) {
   header .container {
     flex-direction: row;
     justify-content: space-between;
-  }
-}
-
-
-/* ==============================
-Medium devices (640px and larger)
-================================= */
-@media only screen and (min-width: 640px) {
-  header .container {
-    text-align: unset;
-    padding: 20px 0 13px;
   }
   nav {
     width: auto;
@@ -267,27 +256,54 @@ Medium devices (640px and larger)
   .col-md-6 {
     width: 50%;
   }
+  [class*="col-"] {
+    float: left;
+  }
   .row::after {
     content: "";
     clear: both;
     display: table;
   }
+
 }
+
+
+/* ==============================
+Medium devices (640px and larger)
+================================= */
 
 /* ==============================
 Large devices (1024px or larger)
 ================================= */
 @media only screen and (min-width: 1024px) {
+  header .container {
+    flex-direction: row;
+    justify-content: space-between;
+  }
 }
 
 /* ==============================
 X-large devices (1440px or larger)
 ================================= */
 @media only screen and (min-width: 1440px) {
+  header .container {
+    flex-direction: row;
+    justify-content: space-between;
+  }
 }
 
 /* ==============================
 Extra-large devices (1920px or larger)
 ================================= */
 @media only screen and (min-width: 1920px) {
+  header .container {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
+
+@keyframes color-change {
+  from {fill: #edc655;}
+  to {fill: #f76414;}
 }
