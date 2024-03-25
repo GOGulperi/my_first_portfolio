@@ -70,3 +70,13 @@ align-items: center;
 width: 100%;
 }
 
+
+/* ===================
+button
+==================== */
+
+.button-wrapper{
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  }
