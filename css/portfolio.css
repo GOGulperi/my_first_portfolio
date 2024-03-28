@@ -1,13 +1,26 @@
 
-/* ===================
-portfolio.html PROJECTS
-==================== */
-@media (min-width: 350px) {
-    #projects .container {
-      flex-direction: column;
-      justify-content: space-between;
-      
+
+@media (min-width: 640px) {
+    #projects {
+    text-align: center;
     }
+
+    #projects h1 {
+    text-align: center;
+    }
+    #projects p {
+      
+    text-align: left;
+    }
+  
+    #projects .project-grid {
+      
+      display: flex;
+      flex-direction: row;
+     
+    }
+    #projects.container{
+        align-items: center;
+    }
+
   }
-
-
