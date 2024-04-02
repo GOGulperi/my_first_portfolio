@@ -20,7 +20,7 @@ about-my-story
 
 .about-card__media {
   order: -1;
-  padding: 20px;
+  padding: 40px;
 
 }
 
@@ -74,4 +74,35 @@ ul.skill-list{
   }
 
 
+@media (min-width: 640px) {
+  .about-card {
+    flex-direction: row;
+  
+  }
 
+  .about-card > * {
+    width: 50%;
+  }
+
+  .about-card__content {
+    justify-content: center;
+  }
+
+  .about-card__media{
+   
+
+  }
+
+  .about-card__content h1 {
+    text-align: left;
+  }
+  .about-card__story p, 
+  .skill-list {
+    width: 65ch;
+  }
+
+  .skill-list {
+    margin-inline: auto;
+  }
+
+}
