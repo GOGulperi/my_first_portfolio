@@ -119,7 +119,7 @@ css animation
 
 @keyframes cloud-move {
   from {transform: translate(0,50px);}
-  to {transform: translate(200px,50px);}
+  to {transform: translate(300px,50px);}
 }
 .cloud-front {
   animation-duration: 30s;
@@ -130,7 +130,7 @@ css animation
 }
 
 @keyframes cloud-move-reverse {
-  from {transform: translate(446px,48px);}
+  from {transform: translate(300px,48px);}
   to {transform: translate(100px, 48px);}
 }
 
@@ -138,3 +138,15 @@ css animation
   animation: 34s cloud-move-reverse infinite alternate linear;
 }
 
+@keyframes color-change-bridge {
+  from {fill: #f95f5f;}
+  to {fill: #7a9cf3;}
+}
+
+.bridge {
+  animation-duration: 4s;
+  animation-name: color-change-bridge;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: linear;
+}
