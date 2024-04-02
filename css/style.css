@@ -237,9 +237,37 @@ Header-logo
 
 
 /* ===================
-device settings
+project page
 ==================== */
 
+.hero-content {
+  text-align: center;
+}
+
+.project-intro {
+  display: flex;
+  gap: 4rem;
+}
+
+.project-intro > * {
+  width: 33.33%;
+}
+
+.project-details {
+  display: flex;
+  gap: 4rem;
+}
+
+.project-details > * {
+  width: 50%;
+}
+
+#overview {
+  padding-block-end: 0;
+}
+#overview .container {
+  gap: 4rem;
+}
 /* ==============================
 Medium devices (640px and larger)
 ================================= */
@@ -257,18 +285,6 @@ Medium devices (640px and larger)
   #hero span {
     display: block;
   }
-  .col-md-6 {
-    width: 50%;
-  }
-  [class*="col-"] {
-    float: left;
-  }
-  .row::after {
-    content: "";
-    clear: both;
-    display: table;
-  }
-
 }
 
 /* ==============================
@@ -301,42 +317,3 @@ Extra-large devices (1920px or larger)
   }
 }
 
-/* ==============================
-css animation
-================================= */
-
-@keyframes color-change {
-  from {fill: #edc655;}
-  to {fill: #f76414;}
-}
-
-.sun {
-  animation-duration: 4s;
-  animation-name: color-change;
-  animation-iteration-count: infinite;
-  animation-direction: alternate;
-  animation-timing-function: linear;
-}
-
-
-
-@keyframes cloud-move {
-  from {transform: translate(0,50px);}
-  to {transform: translate(200px,50px);}
-}
-.cloud-front {
-  animation-duration: 30s;
-  animation-name: cloud-move;
-  animation-iteration-count: infinite;
-  animation-direction: alternate;
-  animation-timing-function: linear;
-}
-
-@keyframes cloud-move-reverse {
-  from {transform: translate(446px,48px);}
-  to {transform: translate(100px, 48px);}
-}
-
-.cloud-back {
-  animation: 34s cloud-move-reverse infinite alternate linear;
-}
