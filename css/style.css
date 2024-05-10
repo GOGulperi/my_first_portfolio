@@ -99,7 +99,7 @@ img {
 }
 
 a {
-  color: #3A5185;
+  color: #c9c9c9;
 }
 
 a:visited {
@@ -108,7 +108,7 @@ a:visited {
 
 a:hover,
 a:focus {
-  color: #3A8285;
+  color: #CBFF88;
 }
 
 a:active {
