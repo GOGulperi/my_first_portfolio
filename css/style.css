@@ -162,6 +162,10 @@ nav>ul>li>a:visited {
   color: #3A5185;
 }
 
+nav .active{
+  color: #CBFF88 !important;
+}
+
 /* ===================
 Layout Styling
 ==================== */
