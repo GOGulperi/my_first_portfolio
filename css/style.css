@@ -229,9 +229,10 @@ Header-logo
 ==================== */
 .logo-style{
   text-decoration: none;
-  font-size: 1em;
+  font-size: 2.5em;
   font-weight: 700;
   color:#474748;
+  font-family: "lobster";
 }
 
 
