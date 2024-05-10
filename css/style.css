@@ -165,6 +165,8 @@ nav>ul>li>a:visited {
 
 nav .active{
   color: #CBFF88 !important;
+  text-decoration: underline;
+  text-underline-offset: 5px;
 }
 
 /* ===================
