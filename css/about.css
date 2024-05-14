@@ -59,9 +59,7 @@ about-skills-tools
 ==================== */
 
 #skills-tools{
-
-   
- 
+  
 }
 
 ul.skill-list{
@@ -72,6 +70,13 @@ ul.skill-list{
   column-gap: 2em;
   row-gap: 1em;
   list-style-type:none;
+  }
+
+  .skill-list li{
+    padding: 0.5em;
+    background-color:aliceblue;
+    border: radius 5px; ;
+
   }
 
 
