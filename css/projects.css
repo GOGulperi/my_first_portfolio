@@ -33,7 +33,7 @@
 BREADCRUMB for portfolio PROJECTS page
 ==================== */
 ul.breadcrumb {
-  padding-top: 50px;
+  padding-block: 2rem;
   padding-left: 16px;
   list-style: none;
   background-color: #CBFF88;
