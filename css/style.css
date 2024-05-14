@@ -25,7 +25,7 @@ body {
 }
 
 h1 {
-  color: #3A8285;
+  color: #000;
   font-size: 2.0rem;
   font-weight: 700;
   line-height: 1.2;
@@ -34,7 +34,7 @@ h1 {
 }
 
 h2 {
-  color: #3A5185;
+  color: #000;
   font-size: 2.4rem;
   font-weight: 700;
   line-height: 1.2;
@@ -43,7 +43,7 @@ h2 {
 }
 
 h3 {
-  color: #3A8285;
+  color: #0c1a1b;
   font-size: 2.0rem;
   font-weight: 700;
   line-height: 1.2;
@@ -72,7 +72,7 @@ img {
 .button {
   display: inline-block;
   background-color: #CBFF88;
-  color: #3A5185;
+  color: #000;
   font-weight: 400;
   padding: 10px 20px;
   border-radius: 5px;
@@ -99,27 +99,27 @@ img {
 }
 
 a {
-  color: #c9c9c9;
+  color: #000;
 }
 
 a:visited {
-  color: #3A5185;
+  color: #000;
 }
 
 a:hover,
 a:focus {
-  color: #CBFF88;
+  color: #1d4648;
 }
 
 a:active {
-  color: #3A8285;
+  color: #CBFF88;
 }
 
 /* ===================
 HEADER Styling
 ==================== */
 header {
-  background-color: #313165;
+  background-color: #131313f4;
   opacity: %;
   padding: 10px 0;
   box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.6);
@@ -155,12 +155,17 @@ nav>ul>li>a {
   padding: 0 15px;
   text-transform: uppercase;
   font-weight: 700;
-  color: #5D5D5D;
+  color: #000;
   text-decoration: none;
 }
 
 nav>ul>li>a:visited {
-  color: #efefef;
+  color: #000;
+}
+
+nav .button:hover{
+  color: #5D5D5D !important;
+
 }
 
 nav .active{
@@ -221,7 +226,7 @@ Social-Footer
 }
 
 .social a:hover svg {
-  fill: #efefef;
+  fill: #474748;
 }
 
 footer .container {
@@ -239,8 +244,8 @@ Header-logo
   text-decoration: none;
   font-size: 2.5em;
   font-weight: 700;
-  color:#474748;
-  font-family: "lobster Two";
+  color:#b1b1b2;
+  font-family: "Cookie";
 }
 
 
