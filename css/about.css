@@ -58,7 +58,10 @@ gap: 0.5em;
 about-skills-tools
 ==================== */
 
-#skills-tools{
+#skills-tools .column{
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
   
 }
 
@@ -75,7 +78,8 @@ ul.skill-list{
   .skill-list li{
     padding: 0.5em;
     background-color:aliceblue;
-    border: radius 5px; ;
+    border: radius 10px;
+    row-gap: 0.5em;
 
   }
 
