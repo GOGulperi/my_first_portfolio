@@ -99,16 +99,18 @@ img {
 }
 
 a {
-  color: #000;
+  
+  color:#CBFF88;
 }
 
 a:visited {
-  color: #000;
+  
+  color: #474748;
 }
 
 a:hover,
 a:focus {
-  color: #1d4648;
+  color: #474748;
 }
 
 a:active {
@@ -164,7 +166,7 @@ nav>ul>li>a:visited {
 }
 
 nav .button:hover{
-  color: #5D5D5D !important;
+  color:  #CBFF88;
 
 }
 
@@ -232,7 +234,7 @@ Social-Footer
 footer .container {
   align-items: center;
   text-align: center;
-  border-top: 2px solid #3A5185;
+  border-top: 2px solid #000;
   padding-top: 6rem;
   padding-bottom: 3rem;
 }
@@ -243,8 +245,8 @@ Header-logo
 .logo-style{
   text-decoration: none;
   font-size: 2.5em;
-  font-weight: 700;
-  color:#b1b1b2;
+  font-weight: 400;
+  color:#efefef;
   font-family: "Cookie";
 }
 
