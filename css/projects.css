@@ -73,7 +73,6 @@ width: 100%;
 .project-grid {
   display: grid;
   grid-template-columns: 1fr;
-
   gap: 2rem;
 }
 
@@ -90,7 +89,6 @@ button
 
   @media (min-width: 640px) {
     .project-grid {
-   
       grid-template-columns: 1fr 1fr;
       grid-auto-rows: 1fr;
     

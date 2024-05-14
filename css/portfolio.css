@@ -12,13 +12,7 @@
       
     text-align: left;
     }
-  
-    #projects .project-grid {
-      
-      display: flex;
-      flex-direction: row;
-     
-    }
+
     #projects.container{
         align-items: center;
     }
