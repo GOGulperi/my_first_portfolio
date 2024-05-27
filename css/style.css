@@ -149,6 +149,7 @@ nav>ul {
 
 }
 
+
 nav>ul>li {
   display: inline-block;
 }
@@ -176,6 +177,90 @@ nav .active{
   text-decoration: underline;
   text-underline-offset: 5px;
 }
+
+
+.navtoggle{
+    display: none;
+    cursor: pointer;
+  }
+
+  .navtoggle .bar {
+    width: 25px;
+    height: 3px;
+    background-color: #a02b2b;
+    margin: 5px 0;
+  }
+
+#myNavtoggle{
+  
+}
+.navtoggle li:not(:last-child) {
+  display: none;
+}
+
+.navtoggle, .navtoggle.responsive {
+  position: relative;
+}
+
+.navtoggle li .icon {
+  position: absolute;
+  right: 0;
+  top: 2px;
+  font-size: 20px;
+}
+
+.icon::before {
+  display: inline-block;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+}
+
+.account::before {
+  font: var(--fa-font-solid);
+  content: '\f007';
+}
+
+.warning::before {
+  font: var(--fa-font-regular);
+  content: '\f071';
+}
+
+.updates::before {
+  font: var(--fa-font-light);
+  content: '\f1ea';
+}
+
+/* an example rule targeting any element with the "contact" class to render fa-message icon in the Thin style */
+.updates::before {
+  font: var(--fa-font-thin);
+  content: '\f27a';
+}
+
+/* an example rule targeting any element with the "delete" class to render fa-trash icon in the Sharp Solid style */
+.delete::before {
+  font: var(--fa-font-sharp-solid);
+  content: '\f1f8';
+}
+
+/* an example rule targeting any element with the "add" class to render fa-circle-plus icon in the Sharp Regular style */
+.add::before {
+  font: var(--fa-font-sharp-regular);
+  content: '\f055';
+}
+
+/* an example rule targeting any element with the "gaming" class to render fa-discord Brand icon */
+.gaming::before {
+  font: var(--fa-font-brands);
+  content: '\f392';
+}
+
+/* an example rule targeting any element with the "custom-icon" class to render a custom icon (uploaded to a kit) */
+.custom-icon::before {
+  font-family: 'Font Awesome Kit'; /* note that you need to use "font-family" for custom icons */
+  content: '\[CUSTOM*ICON_UNICODE]'; /* replace with custom icon's unicode value \*/
+}
+
+
 
 /* ===================
 Layout Styling
@@ -249,6 +334,7 @@ Header-logo
   font-weight: 400;
   color:#efefef;
   font-family: "Cookie";
+
 }
 
 
