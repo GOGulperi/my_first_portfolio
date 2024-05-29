@@ -122,7 +122,7 @@ HEADER Styling
 ==================== */
 header {
   background-color: #131313f4;
-  opacity: %;
+
   padding: 10px 0;
   box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.6);
   -webkit-box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.6);
@@ -131,10 +131,6 @@ header {
   width: 100%;
 }
 
-header .container {
-  gap: 1em;
-  align-items: center;
-}
 
 a.logo {
   text-decoration: none;
@@ -155,11 +151,12 @@ nav>ul>li {
 }
 
 nav>ul>li>a {
-  padding: 0 15px;
   text-transform: uppercase;
   font-weight: 700;
   color: #000;
   text-decoration: none;
+  display: block;
+  padding: 0.5em 0.5em;
 }
 
 nav>ul>li>a:visited {
@@ -178,18 +175,16 @@ nav .active{
   text-underline-offset: 5px;
 }
 
-
+.icon svg{
+  width: 2em;
+  fill: #CBFF88;
+}
 .navtoggle{
-    display: none;
-    cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
   }
 
-  .navtoggle .bar {
-    width: 25px;
-    height: 3px;
-    background-color: #a02b2b;
-    margin: 5px 0;
-  }
 
 #myNavtoggle{
   
@@ -206,14 +201,27 @@ nav .active{
   position: absolute;
   right: 0;
   top: 2px;
-  font-size: 20px;
+ 
 }
 
-.icon::before {
+nav{
   display: inline-block;
-  text-rendering: auto;
-  -webkit-font-smoothing: antialiased;
+  width: 100%;
 }
+
+
+
+.navtoggle.responsive li{
+  display: block;
+}
+
+.navtoggle.responsive ul{
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  margin-top: 1em;
+}
+
 
 .account::before {
   font: var(--fa-font-solid);
@@ -376,17 +384,25 @@ Medium devices (640px and larger)
 ================================= */
 
 @media only screen and (min-width: 640px) {
-  header .container {
-    flex-direction: row;
-    justify-content: space-between;
-  }
-  nav {
-    width: auto;
-    float: right;
-    margin-top: 4px;
-  }
+
   #hero span {
     display: block;
+  }
+
+  .navtoggle li:not(:last-child) {
+    display: inline-block;
+  }
+  .navtoggle li:last-child {
+    display: none;
+  }
+  .navtoggle {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  nav{
+    width: auto;
+
   }
 }
 
@@ -394,30 +410,21 @@ Medium devices (640px and larger)
 Large devices (1024px or larger)
 ================================= */
 @media only screen and (min-width: 1024px) {
-  header .container {
-    flex-direction: row;
-    justify-content: space-between;
-  }
+
 }
 
 /* ==============================
 X-large devices (1440px or larger)
 ================================= */
 @media only screen and (min-width: 1440px) {
-  header .container {
-    flex-direction: row;
-    justify-content: space-between;
-  }
+  
 }
 
 /* ==============================
 Extra-large devices (1920px or larger)
 ================================= */
 @media only screen and (min-width: 1920px) {
-  header .container {
-    flex-direction: row;
-    justify-content: space-between;
-  }
+
 }
 
 
