@@ -66,6 +66,7 @@ about-skills-tools
 }
 
 ul.skill-list{
+ 
   display: flex;
   flex-wrap: wrap;
   padding-left: 0;
