@@ -4,7 +4,6 @@
 
 html {
   font-size: 62.5%;
-
 }
 
 body {
@@ -18,15 +17,14 @@ body {
 .subtitle {
   font-size: 2.8rem;
   font-weight: 400;
-  color: #5D5D5D;
+  color: #5d5d5d;
   line-height: 1.6;
   display: block;
-
 }
 
 h1 {
-  color: #3A5185;
-  font-size: 2.0rem;
+  color: #3a5185;
+  font-size: 2. 0 rem;
   font-weight: 700;
   line-height: 1.2;
   margin: 0;
@@ -34,7 +32,7 @@ h1 {
 }
 
 h2 {
-  color: #3A5185;
+  color: #3a5185;
   font-size: 2.4rem;
   font-weight: 700;
   line-height: 1.2;
@@ -44,7 +42,7 @@ h2 {
 
 h3 {
   color: #0c1a1b;
-  font-size: 2.0rem;
+  font-size: 2. 0 rem;
   font-weight: 700;
   line-height: 1.2;
   margin: 0;
@@ -53,8 +51,8 @@ h3 {
 
 h4,
 .h4 {
-  color: #3A8285;
-  font-size: 2.4rem;
+  color: #3a8285;
+  font-size: 2.4 rem;
   font-weight: 700;
   line-height: 1.2;
   margin: 0;
@@ -68,31 +66,29 @@ img {
   text-align: center;
 }
 
-
 .button {
   display: inline-block;
-  background-color: #CBFF88;
+  background-color: #cbff88;
   color: #000;
   font-weight: 400;
   padding: 10px 20px;
   border-radius: 5px;
-  border-bottom: 2px solid #B6CFFF;
+  border-bottom: 2px solid #b6cfff;
+
   /* width of the border, type, color */
   transition: 0.2s opacity;
   text-decoration: none;
   align-items: center;
-  
 }
 
 .button:visited {
-  color: #3A5185;
+  color: #3a5185;
 }
 
 .button:hover,
 .button:focus {
   opacity: 0.7;
   transition-duration: 0.8s;
-  
 }
 
 .button:active {
@@ -100,22 +96,20 @@ img {
 }
 
 a {
-  
-  color:#3A5185;
+  color: #3a5185;
 }
 
 a:visited {
-  
   color: #bfbfbf;
 }
 
 a:hover,
 a:focus {
-  color:#3f3f3f;
+  color: #3f3f3f;
 }
 
 a:active {
-  color: #CBFF88;
+  color: #cbff88;
 }
 
 /* ===================
@@ -123,7 +117,6 @@ HEADER Styling
 ==================== */
 header {
   background-color: #131313f4;
-
   padding: 10px 0;
   box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.6);
   -webkit-box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.6);
@@ -131,7 +124,6 @@ header {
   position: fixed;
   width: 100%;
 }
-
 
 a.logo {
   text-decoration: none;
@@ -143,7 +135,7 @@ nav>ul {
   list-style-type: none;
   padding: 0;
   margin: 0;
-  line-height: 0px;
+  line-height: 0 px;
   display: flex;
 }
 
@@ -164,40 +156,39 @@ nav>ul>li>a {
 
 nav>ul>li>a:visited {
   color: #bfbfbf;
-
 }
 
 nav .button:hover,
-nav>ul>li>a:hover{
-  color:  #e4e4e4;
-
+nav>ul>li>a:hover {
+  color: #e4e4e4;
 }
 
-nav .active{
-  color: #CBFF88 !important;
+nav .active {
+  color: #cbff88 !important;
   text-decoration: underline;
   text-underline-offset: 5px;
 }
 
-.icon svg{
+.icon svg {
   width: 2em;
-  fill: #CBFF88;
+  fill: #cbff88;
 }
-.navtoggle{
+
+.navtoggle {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  }
-
-
-#myNavtoggle{
-  
 }
+
+
+#myNavtoggle {}
+
 .navtoggle li:not(:last-child) {
   display: none;
 }
 
-.navtoggle, .navtoggle.responsive {
+.navtoggle,
+.navtoggle.responsive {
   position: relative;
 }
 
@@ -205,27 +196,23 @@ nav .active{
   position: absolute;
   right: 0;
   top: 2px;
- 
 }
 
-nav{
+nav {
   display: inline-block;
   width: 100%;
 }
 
-
-
-.navtoggle.responsive li{
+.navtoggle.responsive li {
   display: block;
 }
 
-.navtoggle.responsive ul{
+.navtoggle.responsive ul {
   display: flex;
   flex-direction: column;
   gap: 1em;
   margin-top: 1em;
 }
-
 
 .account::before {
   font: var(--fa-font-solid);
@@ -268,9 +255,14 @@ nav{
 
 /* an example rule targeting any element with the "custom-icon" class to render a custom icon (uploaded to a kit) */
 .custom-icon::before {
-  font-family: 'Font Awesome Kit'; /* note that you need to use "font-family" for custom icons */
-  content: '\[CUSTOM*ICON_UNICODE]'; /* replace with custom icon's unicode value \*/
+  font-family: 'Font Awesome Kit';
+
+  /* note that you need to use "font-family" for custom icons */
+  content: '\[CUSTOM*ICON_UNICODE]';
 }
+
+/* replace with custom icon's unicode value \*
+
 
 
 
@@ -281,7 +273,6 @@ Layout Styling
 main {
   /* padding-top: 120px; */
   padding-top: 84px;
-
 }
 
 .container {
@@ -290,17 +281,11 @@ main {
   display: flex;
   flex-direction: column;
   margin-inline: auto;
-
 }
 
 section {
   padding-block: 6rem;
 }
-
-
-
-
-
 
 /* ===================
 Social-Footer
@@ -340,16 +325,13 @@ footer .container {
 /* ===================
 Header-logo
 ==================== */
-.logo-style{
+.logo-style {
   text-decoration: none;
   font-size: 2.5em;
   font-weight: 400;
-  color:#efefef;
+  color: #efefef;
   font-family: "Cookie";
-
 }
-
-
 
 /* ===================
 project page
@@ -364,7 +346,7 @@ project page
   gap: 4rem;
 }
 
-.project-intro > * {
+.project-intro>* {
   width: 33.33%;
 }
 
@@ -373,16 +355,18 @@ project page
   gap: 4rem;
 }
 
-.project-details > * {
+.project-details>* {
   width: 50%;
 }
 
 #overview {
   padding-block-end: 0;
 }
+
 #overview .container {
   gap: 4rem;
 }
+
 /* ==============================
 Medium devices (640px and larger)
 ================================= */
@@ -396,40 +380,33 @@ Medium devices (640px and larger)
   .navtoggle li:not(:last-child) {
     display: inline-block;
   }
+
   .navtoggle li:last-child {
     display: none;
   }
+
   .navtoggle {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
   }
-  nav{
-    width: auto;
 
+  nav {
+    width: auto;
   }
 }
 
 /* ==============================
 Large devices (1024px or larger)
 ================================= */
-@media only screen and (min-width: 1024px) {
-
-}
+@media only screen and (min-width: 1024px) {}
 
 /* ==============================
 X-large devices (1440px or larger)
 ================================= */
-@media only screen and (min-width: 1440px) {
-  
-}
+@media only screen and (min-width: 1440px) {}
 
 /* ==============================
 Extra-large devices (1920px or larger)
 ================================= */
-@media only screen and (min-width: 1920px) {
-
-}
-
-
-
+@media only screen and (min-width: 1920px) {}
