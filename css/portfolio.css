@@ -1,20 +1,18 @@
 
-
 @media (min-width: 640px) {
-    #projects {
+  #projects {
     text-align: center;
-    }
-
-    #projects h1 {
-    text-align: center;
-    }
-    #projects p {
-      
-    text-align: left;
-    }
-
-    #projects.container{
-        align-items: center;
-    }
-
   }
+
+  #projects h1 {
+    text-align: center;
+  }
+
+  #projects p {
+    text-align: left;
+  }
+
+  #projects.container {
+    align-items: center;
+  }
+}
