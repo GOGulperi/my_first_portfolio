@@ -17,13 +17,13 @@ body {
 .subtitle {
   font-size: 2.6rem;
   font-weight: 700;
-  color: #000000;
+  color: #000;
   line-height: 1.2;
   display: block;
 }
 
 h1 {
-  color: #000000;
+  color: #000;
   font-size: 2.8rem;
   font-weight: 700;
   line-height: 1.6;
@@ -32,7 +32,7 @@ h1 {
 }
 
 h2 {
-  color: #000000;
+  color: #000;
   font-size: 2.4rem;
   font-weight: 700;
   line-height: 1.2;
@@ -49,11 +49,10 @@ h3 {
   text-align: center;
 }
 
-.h3{
+.h3 {
   color: #ff7c17;
   font-size: 2. 0 rem;
   font-weight: 400;
-
 }
 
 h4,
@@ -138,7 +137,7 @@ a.logo {
   font-size: 2rem;
 }
 
-nav>ul {
+nav > ul {
   list-style-type: none;
   padding: 0;
   margin: 0;
@@ -146,27 +145,26 @@ nav>ul {
   display: flex;
 }
 
-
-nav>ul>li {
+nav > ul > li {
   display: inline-block;
   line-height: 1.5;
 }
 
-nav>ul>li>a {
+nav > ul > li > a {
   text-transform: uppercase;
   font-weight: 700;
   color: #bfbfbf;
   text-decoration: none;
   display: block;
-  padding: 0.5em 0.5em;
+  padding: 0.5em;
 }
 
-nav>ul>li>a:visited {
+nav > ul > li > a:visited {
   color: #bfbfbf;
 }
 
 nav .button:hover,
-nav>ul>li>a:hover {
+nav > ul > li > a:hover {
   color: #e4e4e4;
 }
 
@@ -186,9 +184,6 @@ nav .active {
   flex-direction: column;
   align-items: flex-start;
 }
-
-
-#myNavtoggle {}
 
 .navtoggle li:not(:last-child) {
   display: none;
@@ -353,7 +348,7 @@ project page
   gap: 4rem;
 }
 
-.project-intro>* {
+.project-intro > * {
   width: 33.33%;
 }
 
@@ -362,7 +357,7 @@ project page
   gap: 4rem;
 }
 
-.project-details>* {
+.project-details > * {
   width: 50%;
 }
 
