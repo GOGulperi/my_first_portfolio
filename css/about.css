@@ -19,18 +19,21 @@ about-my-story
 .about-card__media {
   order: -1;
   padding: 60px;
+ 
 }
 
 .about-card__media img {
   aspect-ratio: 1/1;
   border-radius: 50%;
   object-fit: cover;
+  
 }
 
 .about-card__content {
   display: flex;
   flex-direction: column;
   padding: 20px;
+ 
 }
 
 .about-card__content ul {
@@ -40,6 +43,7 @@ list-style-type: none; */
   display: flex;
   flex-direction: column;
   gap: 0.5em;
+ 
 }
 
 .about-card__story {
@@ -83,7 +87,7 @@ ul.skill-list{
 }
 
 .about-card > * {
-  width: 50%;
+  width: 100%;
   }
 
 .about-card__content {
