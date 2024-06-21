@@ -18,22 +18,20 @@ about-my-story
 
 .about-card__media {
   order: -1;
-  padding: 60px;
- 
+  padding: 40px;
 }
 
 .about-card__media img {
   aspect-ratio: 1/1;
   border-radius: 50%;
   object-fit: cover;
-  
+
 }
 
 .about-card__content {
   display: flex;
   flex-direction: column;
-  padding: 20px;
- 
+  padding: 40px;
 }
 
 .about-card__content ul {
@@ -43,7 +41,6 @@ list-style-type: none; */
   display: flex;
   flex-direction: column;
   gap: 0.5em;
- 
 }
 
 .about-card__story {
@@ -56,6 +53,7 @@ list-style-type: none; */
 /* ===================
 about-skills-tools
 ==================== */
+
 
 #skills-tools .column {
   display: flex;
@@ -88,25 +86,18 @@ ul.skill-list{
 
 .about-card > * {
   width: 100%;
-  }
+}
 
 .about-card__content {
   justify-content: center;
 }
 
-.about-card__media {
-   
-  }
-
 .about-card__content h1 {
   text-align: left;
 }
 
-.about-card__story p,
-.skill-list {
-  width: 65ch;
-}
 
 .skill-list {
   margin-inline: auto;
+  width: 65ch;
 }

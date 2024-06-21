@@ -57,6 +57,8 @@ context
   margin: auto;
   padding: 20px;
   list-style: none;
+  min-width: 300px;
+  max-width: 500px;
 }
 
 #contact-info {
