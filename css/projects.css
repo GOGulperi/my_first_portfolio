@@ -1,61 +1,67 @@
 #projects .container {
   gap: 2em;
-  }
-  
-.project-card {
-    background-color: #fff;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
-    -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
-    -moz-box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
-    display: flex;
-    flex-direction: column;
-    border-radius: 8px;
-    overflow: hidden;
-  
-  }
-  
-  .project-card__media {
-    padding: 20px;
-    width: 100%;
-    order: -1;
-  }
-  
-  #projects .project-card__content {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    margin-bottom: 1em;
-    padding: 1em;
-  }
-  
+}
 
-  /* ===================
+.project-card {
+  background-color: #fff;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+  -moz-box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+  display: flex;
+  flex-direction: column;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.project-card__media {
+  padding: 20px;
+  width: 100%;
+  order: -1;
+}
+
+#projects .project-card__content {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-bottom: 1em;
+  padding: 1em;
+}
+
+/* ===================
 BREADCRUMB for portfolio PROJECTS page
 ==================== */
 ul.breadcrumb {
   padding-block: 2rem;
   padding-left: 16px;
   list-style: none;
-  background-color: #CBFF88;
+  background-color: #cbff88;
   margin: 0;
 }
+
 ul.breadcrumb li {
   display: inline;
   font-size: 14px;
 }
-ul.breadcrumb li+li:before {
+
+ul.breadcrumb li + li:before {
   padding: 8px;
   color: black;
   content: "/\00a0";
 }
+
 ul.breadcrumb li a {
-  color: #3A8285;
+  color: #3a8285;
   text-decoration: none;
 }
+
 ul.breadcrumb li a:hover {
-  color: #3A5185;
+  color: #3a5185;
   text-decoration: underline;
-  text-decoration-color: #CBFF88;
+  text-decoration-color: #cbff88;
+}
+
+section {
+  padding-block-end: 0;
 }
 
 /* ===================
@@ -63,11 +69,12 @@ projects hero section
 ==================== */
 
 .hero-image {
-display: flex;
-flex-direction: column;
-padding: 20px;
-align-items: center;
-width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  align-items: center;
+  width: 100%;
+  max-width: 400px;
 }
 
 .project-grid {
@@ -80,36 +87,38 @@ width: 100%;
 button
 ==================== */
 
-.button-wrapper{
+.button-wrapper {
   display: flex;
   flex-direction: column;
   gap: 1em;
-  align-items: flex-start;
+  align-items: center;
+}
+
+.button-wrapper a {
+  width: 100%;
+  text-align: center;
+}
+
+@media (min-width: 640px) {
+  .project-grid {
+    grid-template-columns: 1fr 1fr;
+    grid-auto-rows: 1fr;
   }
+}
 
-  @media (min-width: 640px) {
-    .project-grid {
-      grid-template-columns: 1fr 1fr;
-      grid-auto-rows: 1fr;
-    
-    }
+@media (min-width: 1200px) {
+  .project-grid {
+    grid-template-columns: 1fr 1fr 1fr;
   }
-
-  @media (min-width: 1200px) {
-    .project-grid {
-      grid-template-columns: 1fr 1fr 1fr;
-    }
-  }
-
-
+}
 
 /* ==============================
 css animation
 ================================= */
 
 @keyframes color-change {
-  from {fill: #edc655;}
-  to {fill: #f76414;}
+  from { fill: #edc655; }
+  to { fill: #f76414; }
 }
 
 .sun {
@@ -120,12 +129,11 @@ css animation
   animation-timing-function: linear;
 }
 
-
-
 @keyframes cloud-move {
-  from {transform: translate(0,50px);}
-  to {transform: translate(300px,50px);}
+  from { transform: translate(0, 50px); }
+  to { transform: translate(300px, 50px); }
 }
+
 .cloud-front {
   animation-duration: 30s;
   animation-name: cloud-move;
@@ -135,8 +143,8 @@ css animation
 }
 
 @keyframes cloud-move-reverse {
-  from {transform: translate(300px,48px);}
-  to {transform: translate(100px, 48px);}
+  from { transform: translate(300px, 48px); }
+  to { transform: translate(100px, 48px); }
 }
 
 .cloud-back {
@@ -144,8 +152,8 @@ css animation
 }
 
 @keyframes color-change-bridge {
-  from {fill: #f95f5f;}
-  to {fill: #7a9cf3;}
+  from { fill: #f95f5f; }
+  to { fill: #7a9cf3; }
 }
 
 .bridge {
@@ -154,4 +162,33 @@ css animation
   animation-iteration-count: infinite;
   animation-direction: alternate;
   animation-timing-function: linear;
+}
+
+/* Default styling for smaller screens (mobile) */
+.project_detail .container {
+  display: flex;
+  flex-direction: column;
+}
+
+.project_detail .row {
+  display: flex;
+  flex-direction: column;
+}
+
+.project_detail .column {
+  flex: 1;
+  padding: 20px;
+}
+
+/* Styling for larger screens (desktop) */
+@media (min-width: 768px) {
+  .project_detail .row {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .project_detail .column {
+    flex: 0 0 50%;
+    box-sizing: border-box;
+  }
 }

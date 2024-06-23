@@ -66,6 +66,8 @@ ul.skill-list{
   column-gap: 2em;
   row-gap: 1em;
   list-style-type: none;
+  width: 100%;
+  justify-content: center;
 }
 
 .skill-list li {
